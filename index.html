@@ -33,6 +33,14 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
+    <style>
+        body {
+            --background-color: #f0c086;
+
+            /* background-color: var(--background-color, #f0c086); */
+            /* Default background color */
+        }
+    </style>
 
 </head>
 
@@ -90,6 +98,8 @@
                 <div class="intro-lead-in">Welcome To <span class="beatblast"> Beat Blast!</span> </div>
                 <div class="intro-heading">where beats comes alive</div>
                 <a href="https://rzp.io/l/zAQEq9vwxI" class="page-scroll btn btn-xl">Buy Tickets</a>
+                <label for="color-picker">Select a background color:</label>
+                <input type="color" id="color-picker">
             </div>
         </div>
     </header>
@@ -412,6 +422,17 @@
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
 
+
+
+
+    <script>
+        const colorPicker = document.getElementById('color-picker');
+
+        colorPicker.addEventListener('input', () => {
+            const selectedColor = colorPicker.value;
+            document.body.style.setProperty('--background-color', selectedColor);
+        });
+    </script>
 </body>
 
 </html>
