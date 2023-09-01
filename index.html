@@ -35,6 +35,7 @@
     <![endif]-->
     <style>
         body {
+            background-color: #222222;
             --background-color: #f0c086;
 
             /* background-color: var(--background-color, #f0c086); */
@@ -44,8 +45,11 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" onload="loadingFunction()">
+    <!-- Loading Begin -->
+    <div id="loading">
 
+    </div>
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
@@ -426,6 +430,16 @@
 
 
     <script>
+        var loader = document.getElementById("loading");
+
+        function loadingFunction() {
+            loader.style.display = "none";
+        }
+
+
+
+
+
         const colorPicker = document.getElementById('color-picker');
 
         colorPicker.addEventListener('input', () => {
