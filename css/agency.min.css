@@ -303,6 +303,7 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+  color: #222;
 }
 header .intro-text .intro-heading {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -331,6 +332,7 @@ header .intro-text .intro-heading {
     font-size: 75px;
     line-height: 75px;
     margin-bottom: 50px;
+    color: #222;
   }
 }
 #portfolio .portfolio-item .portfolio-caption p,
