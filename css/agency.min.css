@@ -875,3 +875,10 @@ img::-moz-selection {
   background: #222222 url(../img/Loading.gif) no-repeat center;
   z-index: 9999;
 }
+
+/* Style the logo image within the anchor tag */
+.mainlogo {
+  /* Add your desired styles here */
+  max-width: 10%; /* Make sure the image doesn't exceed its container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
