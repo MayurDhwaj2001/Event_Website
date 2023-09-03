@@ -808,7 +808,7 @@ ul.social-buttons li a:hover {
 }
 ::selection {
   text-shadow: none;
-  background: var(--background-color);
+  background: #ff561853;
 }
 img::selection {
   background: 0 0;
