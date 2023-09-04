@@ -887,6 +887,7 @@ img::-moz-selection {
   /* height: auto;  */
 }
 
+/* mouse start */
 .home-hero__mouse-scroll-cont {
   position: absolute;
   bottom: 3%;
@@ -915,7 +916,7 @@ img::-moz-selection {
   top: 7px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #808080;
+  background-color: #ff5518;
   border-radius: 50%;
   opacity: 1;
   animation: wheel 1.3s infinite;
@@ -935,3 +936,4 @@ img::-moz-selection {
     top: 27px;
   }
 }
+/* mouse end */
