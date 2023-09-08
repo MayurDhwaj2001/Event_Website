@@ -1,0 +1,48 @@
+.timercontainer {
+  text-align: center;
+  background-color: #a2a2a200;
+  display: flex;
+  flex-direction: column;
+  /* width: 40vw; */
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  flex-direction: row;
+}
+
+.timer {
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 0px;
+  background-color: #ff561800;
+  color: #fff;
+  border-radius: 5px;
+  width: 60px;
+}
+
+.Unit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  flex-direction: row;
+}
+
+.text {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0px;
+  background-color: #ff5518;
+  color: #000000;
+  border-radius: 5px;
+  width: 60px;
+  font-weight: 900;
+}
