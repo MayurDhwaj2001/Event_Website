@@ -941,3 +941,9 @@ img::-moz-selection {
 .lower {
   text-transform: none;
 }
+
+.img-responsive-gallery {
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+}
