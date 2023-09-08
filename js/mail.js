@@ -784,7 +784,7 @@ $(document).ready(function () {
         .prop("disabled", false)
         .attr("onclick", "window.location.href='#';");
 
-      $("#name, #email, #message").keypress(function (e) {
+      $("Hello #name, #email, #message").keypress(function (e) {
         if (emailVal === true && nameVal === true && textareaVal === true) {
           var key = e.which;
           if (key == 13) {
