@@ -41,13 +41,14 @@ textarea {
   width: 420px;
   position: relative;
   display: block;
-  background-color: #f4f7fb;
+  background-color: rgba(129, 129, 129, 0.767);
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 500;
   border: none;
   box-shadow: none;
   border-radius: 5px;
+  color: #ffffff;
   outline-color: #9e9e9e;
 }
 
