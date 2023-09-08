@@ -950,3 +950,9 @@ img::-moz-selection {
 .img-responsive-upcomingevents {
   width: 71vw;
 }
+
+@media (max-width: 725px) {
+  .img-responsive-upcomingevents {
+    width: 93vw;
+  }
+}
