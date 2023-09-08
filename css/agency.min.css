@@ -937,3 +937,7 @@ img::-moz-selection {
   }
 }
 /* mouse end */
+
+.lower {
+  text-transform: none;
+}
