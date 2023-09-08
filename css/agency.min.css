@@ -947,3 +947,12 @@ img::-moz-selection {
   width: 350px;
   object-fit: cover;
 }
+.img-responsive-upcomingevents {
+  width: 50vw;
+}
+
+@media (max-width: 892px) {
+  .img-responsive-upcomingevents {
+    width: 80vw;
+  }
+}
