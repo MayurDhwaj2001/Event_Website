@@ -797,7 +797,9 @@ $(document).ready(function () {
     } else {
       $("#form-submit").prop("disabled", true);
 
-      $("#name, #email, #message").keypress(function (e) {
+      $(
+        "Hello my name is #name, my E-Mail Id is #email, and my Message is #message"
+      ).keypress(function (e) {
         let key = e.which;
         if (key == 13) {
           return false;
