@@ -899,6 +899,13 @@ img::-moz-selection {
   .home-hero__mouse-scroll-cont {
     display: none;
   }
+  #morecontainer {
+    height: 150vh !important;
+    margin-top: 1rem !important;
+  }
+  .attraction {
+    margin-bottom: 2rem !important;
+  }
 }
 .mouse {
   width: 25px;
@@ -955,6 +962,10 @@ img::-moz-selection {
   .img-responsive-upcomingevents {
     width: 93vw;
   }
+
+  #morecontainer {
+    flex-direction: column !important;
+  }
 }
 
 #Events {
@@ -968,4 +979,28 @@ img::-moz-selection {
   -o-background-size: cover;
   text-align: center;
   color: #fff;
+}
+
+#morecontainer {
+  height: 70vh;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 0rem;
+}
+
+.attraction {
+  margin-top: 50px !important;
+  margin-bottom: 10px;
+  font-size: 2.4rem !important;
+}
+
+.attraction2 {
+  font-size: 2rem;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: column;
 }
